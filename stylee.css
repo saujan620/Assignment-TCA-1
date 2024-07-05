@@ -20,6 +20,16 @@ header {
 .logo {
     width: 50px;
     height: auto;
+    animation: logo-animation 1s infinite alternate;
+}
+
+@Keyframes logo-animation {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 
@@ -61,6 +71,20 @@ main {
     background-color: #808080;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.about-me h1 {
+    font-size: 36px;
+    color: firebrick;
+    animation: about-me-animation 1s ease-in-out infinite alternate; /* Example animation */
+}
+
+@keyframes about-me-animation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
 
 .about-me-content {
     max-width: 1000px;
@@ -80,7 +104,17 @@ main {
     height: auto;
     border-radius: 45%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: profile-photo-animation 1s infinite alternate;
 }
+@keyframes profile-photo-animation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
 
 footer {
     background-color: #333;
