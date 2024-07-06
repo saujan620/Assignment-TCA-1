@@ -429,14 +429,14 @@ footer {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: grey;
+    background-color: black;
     color: white;
 }
 
 .container section h2 {
     margin-top: 0;
     font-size: 24px;
-    color: #333;
+    color: black;
 }
 
 .container section p {
